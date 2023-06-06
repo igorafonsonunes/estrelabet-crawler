@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/igorafonsonunes/estrelabet-crawler#readme",
   "dependencies": {
-    "axios": "^1.4.0"
+    "axios": "^1.4.0",
+    "express": "^4.18.2"
   }
 }
