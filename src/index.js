@@ -55,7 +55,7 @@ const createResponse = (match, dateMatch) => {
     };
 };
 
-const findDayMatch = (matches) => {
+const findMatch = (matches) => {
     let index = 0;
     let dateMatch = null;
 
@@ -93,7 +93,7 @@ const main = async (name) => {
 
     if (data) {
         const matches = getOnlyMatches(data);
-        const [match, dateMatch] = findDayMatch(matches);
+        const [match, dateMatch] = findMatch(matches);
 
         dataTreated = createResponse(match, dateMatch);
     }
