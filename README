@@ -1,0 +1,20 @@
+# Crawler no portal da ESTRELABET
+
+## O que pesquisar
+
+- Nome do time:  Cruzeiro
+
+## O que retornar
+
+- Time adversário.
+- Dia e Horário do jogo.
+
+- Odds
+    - vitória
+    - empate
+    - derrota
+
+
+Faça um Crawler para buscar a seguinte informação no site da EstrelaBet ( estrelabet.com).
+Qual será o próximo jogo do Cruzeiro (time adversário, dia e horário)? e qual a a Odds deste
+jogo ( vitória, empate e derrota)?
