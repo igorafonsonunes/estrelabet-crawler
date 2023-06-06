@@ -13,3 +13,8 @@
     - vitória
     - empate
     - derrota
+
+# Para executar o projeto
+
+Primeiro você deve rodar o comando 'npm install' no diretorio onde se encontra o packge.json, após isso você pode simplesmente entrar na pasta src pelo terminal e executar 'node index.js' ou executar o comando 'npm run start'
+
