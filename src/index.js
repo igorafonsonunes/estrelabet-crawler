@@ -1,6 +1,7 @@
 // const express = require("express");
 const { getActualMatch } = require("./starbet.js");
 
+//ADICIONEI O EXPRESS APENAS PARA APRESENTAÇÃO DO PROJETO
 // const app = express();
 // app.use(express.json());
 // const port = 3000;
