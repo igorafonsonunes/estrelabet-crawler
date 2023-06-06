@@ -45,13 +45,13 @@ const getDataFromStartBet = async (name) => {
 
 const createResponse = (match, dateMatch) => {
     return {
-        "time": match[index].acN,
-        "timeAdversario": match[index].hcN,
+        "time": match.acN,
+        "timeAdversario": match.hcN,
         "dataPartida": dateMatch.split(" ")[0],
         "horarioPartida": dateMatch.split(" ")[1],
-        "oddVitoria": match[index].btgs[0].fos[2].hO,
-        "oddEmpate": match[index].btgs[0].fos[1].hO,
-        "oddDerrota": match[index].btgs[0].fos[0].hO,
+        "oddVitoria": match.btgs[0].fos[2].hO,
+        "oddEmpate": match.btgs[0].fos[1].hO,
+        "oddDerrota": match.btgs[0].fos[0].hO,
     };
 };
 
@@ -70,7 +70,7 @@ const findDayMatch = (matches) => {
         }
     }
 
-    return { matches: matches[index], dateMatch };
+    return [matches[index], dateMatch];
 };
 
 const getOnlyMatches = (data) => {
