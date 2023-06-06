@@ -13,8 +13,3 @@
     - vitória
     - empate
     - derrota
-
-
-Faça um Crawler para buscar a seguinte informação no site da EstrelaBet ( estrelabet.com).
-Qual será o próximo jogo do Cruzeiro (time adversário, dia e horário)? e qual a a Odds deste
-jogo ( vitória, empate e derrota)?
